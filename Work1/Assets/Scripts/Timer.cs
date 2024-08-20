@@ -17,6 +17,7 @@ public class Timer : MonoBehaviour
             timeText.text = "Time Remaining: " + (Mathf.FloorToInt(runningTime).ToString());
             runningTime -= Time.deltaTime;
         }
+
         if (runningTime <= 0)
         {
             isGameOverText.text = "You ran out of time!\nGame Over!";

@@ -6,7 +6,6 @@ using System;
 public class FinishLine : MonoBehaviour
 {
     [SerializeField] private ScoreCounter scoreCounter;
-    [SerializeField] SpriteRenderer renderer;
     [SerializeField] private TextMeshProUGUI isGameOverText;
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -19,6 +18,7 @@ public class FinishLine : MonoBehaviour
                 isGameOverText.text = "You Win!";
                 Time.timeScale = 0f;
             }
+
             else
             {
                 isGameOverText.text = "You have yet to collect 5 coins\n Game Over!";

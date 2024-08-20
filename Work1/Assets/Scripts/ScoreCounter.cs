@@ -12,10 +12,10 @@ public class ScoreCounter : MonoBehaviour
     {
         score++;
         UpdateScoreText();
+
         if (score >= 5)
         {
             SetFinishLineColor(Color.green);
-            UnityEngine.Debug.Log(finishLine.GetComponent<SpriteRenderer>().color);
         }
     }
 

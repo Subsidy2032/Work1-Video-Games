@@ -160,7 +160,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Time Remaining: 30'
+  m_text: 'Time Remaining: 20'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -422,7 +422,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreCounter: {fileID: 1268299988}
-  renderer: {fileID: 0}
   isGameOverText: {fileID: 1373947561}
 --- !u!212 &491855596
 SpriteRenderer:
@@ -657,7 +656,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6663a98751045d444b6d4205c9f5ab51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runningTime: 40
+  runningTime: 20
   timeText: {fileID: 320836334}
   isGameOverText: {fileID: 1373947561}
 --- !u!4 &565491749
